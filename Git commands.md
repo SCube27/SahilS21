@@ -66,8 +66,8 @@
 [**NOTE**] : The applied stash is still going to be inside the stash, even though its retrieved.
 
 17. ```git stash --include-untracked -- filename``` :
-    - Stashes the untracked files (Files not even added i.e not git add). Modified version of <git stash>.
-    - To stash all the files whether tracked or untracked use <git stash --all>.
+    - Stashes the untracked files (Files not even added i.e not git add). Modified version of ```git stash```.
+    - To stash all the files whether tracked or untracked use ```git stash --all```.
 
 18. ```git stash pop``` :
     - Takes out a stashed file back to the working directory.
@@ -152,7 +152,7 @@
     - If the main branch has moved ahead since feature branch creation then a proper merge happens with a merge commit message.
 
 37. ```git rebase <feature-branch name>``` :
-    - This is somewhat similar to <git merge>, this command creates a copy of the feature branch(all commits in feature) and adds them infront of the main branch.
+    - This is somewhat similar to ```git merge```, this command creates a copy of the feature branch(all commits in feature) and adds them infront of the main branch.
     - This creates a clean linear structure at the end of the merge in the main branch.
 
 38. ```git rebase --interactive main``` :
